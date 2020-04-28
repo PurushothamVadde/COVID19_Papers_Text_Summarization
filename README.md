@@ -130,8 +130,10 @@ Navigate to directory that we cloned from git **cs5293sp20-project2 / Summarizer
 
 >pipenv run python summarizer.py
 
+- **Note**
+Need to download the dataset from below link and placed inside summarizer package before running the code
 
-
+https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 
 
