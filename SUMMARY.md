@@ -1,6 +1,6 @@
 ### Text_Summarization with clusterwise data:
 
-we pass the cluster wise data from the above function to the  Text_Summarization(Cluster_wise_data) function, we iterate through the each cluster wise data and we perform the below operations to summarize the text of each cluster.
+we pass the cluster wise data to the  Text_Summarization(Cluster_wise_data) function, we iterate through the each cluster wise data and we perform the below operations to summarize the text of each cluster.
 
 - Tokenize the sentences:
 We perform the sentence tokenize on by  using the nltk.sent_tokenize , by this we will get the tokenized data for each cluster data.
