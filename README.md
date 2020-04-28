@@ -66,8 +66,13 @@ To find the number of clusters,  I used the kelbow function from the yellowbrick
 > visualizer.fit(matrix)    
 > visualizer.show()
 
+In the below plot we can see that the optimal K Value is 8. \
+i got the optimal kvalue as 8 for 1% of data from the covid json files.
 
-![](cs5293sp20-project2/Kvalue.png)
+
+  ![KValue](https://github.com/PurushothamVadde/cs5293sp20-project2/blob/master/Kvalue.png) 
+    
+  
 
 
 
