@@ -1,3 +1,31 @@
+### Text_Summarization with clusterwise data:
+
+we pass the cluster wise data from the above function to the  Text_Summarization(Cluster_wise_data) function, we iterate through the each cluster wise data and we perform the below operations to summarize the text of each cluster.
+
+- Tokenize the sentences:
+We perform the sentence tokenize on by  using the nltk.sent_tokenize , by this we will get the tokenized data for each cluster data.
+> tokenize_sentences = Text_sentence_normanlization(Cluster_wise_data[i])
+
+-Vectorize the tokenize sentences:
+we apply the TfidfVectorizer function on the tokenize sentences to convert the data into machine understanding format, after transform the data we will get a matrix.
+> vectorizer = TfidfVectorizer(stop_words='english')
+> matrix = vectorizer.fit_transform(tokenize_sentences)
+
+- Generate similarity matrix:
+we get the similarity matrix by multiplying the matrix with transpose of matrix.
+> SimilatityMatrix = (matrix * matrix.T)
+
+- Pagerank Algorithm:
+The similary matrix is passed to the sparse matrix function in networkx package we ge a similarity graph, the similarity graph is passed through the pagerank alogirith so that we get the scores of the each sentence.
+> SimilarityGraph = networkx.from_scipy_sparse_matrix(SimilatityMatrix)
+> DocScores = networkx.pagerank(SimilarityGraph)
+
+- Reading the top Sentences
+Based on the pagerank score we sort the sentences and with high ranking and we select the top 10 sentences and we write to a document.
+
+
+
+
 ## Summary of Cluster0
 
 Indications for the use or consideration of a long-term controller medication for the 0–4-year-old age group also includes the following:More than three episodes of wheezing that lasted longer than 1 day within the past year and risk factors for developing asthma, including (1) atopic dermatitis, (2) sensitization to aeroallergens, or (3) parental history of asthma or two of the following: food allergy, more than 4% blood eosinophilia, or wheezing in the absence of a viral respiratory infectionRequires symptomatic treatment 3 days or more weekly for more than 4 weeksRequired systemic corticosteroids for severe exacerbation of asthma two or more times within the last 6 months
