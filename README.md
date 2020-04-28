@@ -72,8 +72,16 @@ i got the optimal kvalue as 8 for 1% of data from the covid json files.
 
   ![KValue](https://github.com/PurushothamVadde/cs5293sp20-project2/blob/master/Kvalue.png) 
     
-  
+### get_cluster_data(model,extracted_data):
+By using the get_cluster_data() we get the documents related to the each cluster by using model.lables_, the model.lables_ contain the labels of documents in each cluster. \
+the get_cluster_data() takes the input arguments as extracted data and model, by using model.cluster_centers_ we iterate through each cluster and in each cluster using model.lables_ we iterate through each document and we append the data for each document in the cluster so that we will get a list with each element in the list represent the cluster data. \
 
+> for i in range(len(model.cluster_centers_)):
+>>  Temp_cluster_data = [] \
+>>  for  j in range(len(model.labels_)):
+>>>    if i == model.labels_[j]:
+>>>>      Temp_cluster_data.append(extracted_data[j])
+>>  Cluster_data.append(Temp_cluster_data)
 
 
 
