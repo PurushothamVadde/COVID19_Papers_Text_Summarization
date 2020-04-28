@@ -110,6 +110,23 @@ The similary matrix is passed to the sparse matrix function in networkx package 
 Based on the pagerank score we sort the sentences and with high ranking and we select the top 10 sentences and we write to a document.
 
 
+## Assumptions:
+
+- i implemented the summarizer project for only **1 %** of data from the below covid dataset:
+https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+
+
+
+## Steps to Run project1
+
+- **Step1** \
+clone the project directory using below command 
+> git clone  https://github.com/PurushothamVadde/cs5293sp20-project2.git
+
+- **Step2** \
+Navigate to directory that we cloned from git **cs5293sp20-project2 / Summarizer** and run the below command.
+
+>pipenv run python summarizer.py
 
 
 
