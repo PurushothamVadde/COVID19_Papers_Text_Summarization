@@ -67,6 +67,10 @@ To find the number of clusters,  I used the kelbow function from the yellowbrick
 > visualizer.show()
 
 
+![](cs5293sp20-project2/Kvalue.png)
+
+
+
 
 
 
