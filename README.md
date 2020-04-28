@@ -115,6 +115,8 @@ Based on the pagerank score we sort the sentences and with high ranking and we s
 - i implemented the summarizer project for only **1 %** of data from the below covid dataset:
 https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
+- Forigen languages are not handled.
+
 
 
 ## Steps to Run project1
