@@ -119,16 +119,6 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 
 
 
-## Steps to Run project1
-
-- **Step1** \
-clone the project directory using below command 
-> git clone  https://github.com/PurushothamVadde/The-Analyzer.git
-
-- **Step2** \
-Navigate to directory that we cloned from git **Analyzer** and run the below command.
-
->pipenv run python Analyzer.py
 
 
 
