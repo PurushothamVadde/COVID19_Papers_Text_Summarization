@@ -1,4 +1,4 @@
-## Text Analytics project 2  "The Summarizer"
+## NLP_Text_Summarizer_with_KmeansClustering
 
 ## Author: Purushotham Vadde
 
