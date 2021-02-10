@@ -1,6 +1,6 @@
 # COVID 19 Text Data Summarization with NLP
 
-## Author: Purushotham Vadde
+![head](https://github.com/PurushothamVadde/COVID_19_Text_Data_Summarization_with_NLP/blob/master/Text-Summarization.jpg)
 
 ## Packages Required for Project:
 - nltk
