@@ -1,4 +1,4 @@
-## NLP_Text_Summarizer_with_KmeansClustering
+# COVID 19 Text Data Summarization with NLP
 
 ## Author: Purushotham Vadde
 
