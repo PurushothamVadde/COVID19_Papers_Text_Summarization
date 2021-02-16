@@ -11,6 +11,7 @@
 - json
 - yellowbrick
 
+### Problem Statement
 In this project i am taking text files of json format related to **COVID** and performing the KMeans clustering on documents so that the similar type of documents are come under one cluster, after clustering the documents i am taking the documents from each cluster and performing the text summarization by using page rank algorithm technique.
 
 ### Json files 
