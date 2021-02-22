@@ -1,4 +1,4 @@
-# COVID 19 Text Data Summarization with NLP
+# COVID 19 PapersText Summarization with NLP
 
 ![head](https://github.com/PurushothamVadde/COVID_19_Text_Data_Summarization_with_NLP/blob/master/Text-Summarization.jpg)
 
